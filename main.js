@@ -18,7 +18,7 @@ hamburger.addEventListener("click", () => {
     main.classList.toggle("is-active");
     footer.classList.toggle("is-active");
 })
-hamburger.addEventListener("touchstart", () => {
+hamburger.addEventListener("touchend", () => {
     body.classList.toggle("is-active");
     nav.classList.toggle("is-active");
     hamburger.classList.toggle("is-active");
