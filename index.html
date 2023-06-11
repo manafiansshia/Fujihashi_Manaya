@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fujihashi Manaya</title>
+    <link rel="stylesheet" href="css/rest.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/bona-nova" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/bonheur-royale-2" rel="stylesheet">
+    
+</head>
+<body class="body">
+    <header id="header">
+        <div class="header-air">
+            <div class="flont-header">
+                <h2 class="header-ttl"><a href="#header" class="header-ttl-link">HOME</a></h2>
+
+                <div class="hamburger">
+                    <span class="hamburger-span"></span>
+                    <span class="hamburger-span"></span>
+                    <span class="hamburger-span"></span>
+                </div>
+            </div>
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#profile" class="nav-link nav1">profile</a></li>
+                    <li class="nav-item"><a href="#skill" class="nav-link nav2">skill</a></li>
+                    <li class="nav-item"><a href="#works" class="nav-link nav3">works</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link nav4">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-visual">
+            <img src="img/Rectangle 14.png" alt="メインビジュアル" class="main-img">
+            <h2 class="main-visual-txt">Fujihashi   Manaya</h2>
+        </div>
+
+        <section id="profile" class="section-inner">
+            <h2 class="profile-ttl">Profile</h2>
+
+            <div class="profile-content">
+                <div class="profile-img-box">
+                    <img src="img/Rectangle 4.png" alt="プロフィール写真" class="profile-img">
+                </div>
+                <table class="profile-table">
+                    <tr class="table-tr">
+                        <th>名前：</th>
+                        <td>藤橋耀也(ふじはしまなや)</td>
+                    </tr>
+                    <tr class="table-tr">
+                        <th>生年月日：</th>
+                        <td>２００２年１２月２５日</td>
+                    </tr>
+                    <tr class="table-tr">
+                        <th>大学：</th>
+                        <td>千葉工業大学</td>
+                    </tr>
+                    <tr class="table-tr">
+                        <th>趣味：</th>
+                        <td>ドライブ、野球、犬の散歩</td>
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+
+        <section id="skill" class="section-inner">
+            <div class="skill-img-box">
+                <img src="img/Rectangle 14.2.png" alt="" class="skill-img">
+            </div>
+
+            <div class="skill-content">
+                <h2 class="skill-content-ttl">Skill</h2>
+
+                <div class="skill-content-about-box">
+                    <div class="skill-content-about">
+                        <p class="skill-about-txt">HTML</p>
+
+                        <div class="skill-content-logo-box">
+                            <img src="img/html5-logo-0668063811-seeklogo.com-removebg-preview (1).png" alt="HTMLのロゴ" class="skill-content-logo1">
+                        </div>
+                    </div>
+                    <div class="skill-content-about">
+                        <p class="skill-about-txt">CSS</p>
+
+                        <div class="skill-content-logo-box">
+                            <img src="img/css_logo_icon_214733 1.png" alt="HTMLのロゴ" class="skill-content-logo2">
+                        </div>
+                    </div>
+                    <div class="skill-content-about">
+                        <p class="skill-about-txt">JavaScript</p>
+
+                        <div class="skill-content-logo-box">
+                            <img src="img/614d33d8fbc157433fa89f65_icons8-javascript-logo-500 1.png" alt="HTMLのロゴ" class="skill-content-logo3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="works" class="section-inner">
+            <h2 class="works-ttl">Works</h2>
+
+            <div class="works-box">
+                <div class="works-content">
+                    <a href="index.html" class="works-content-link"><img src="img/Rectangle 14.png" alt="" class="works-img"></a>
+                </div>
+                <div class="works-content">
+                    <span class="works-not-create"></span>
+                </div>
+                <div class="works-content">
+                    <span class="works-not-create"></span>
+                </div>
+                <div class="works-content">
+                    <span class="works-not-create"></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="contact-ttl">Contact</h2>
+
+            <div class="contact-form">
+                <form action="check.html" method="post" class="contact-form-content">
+                    <table class="contact-table">
+                        <tr>
+                            <th class="contact-item">Name :</th>
+                            <td class="contact-body">
+                                <input type="text" name="name" class="form-txt">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="contact-item">E-mail :</th>
+                            <td class="contact-body">
+                                <input type="email" name="e-mail" class="form-txt">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="contact-item">Phon :</th>
+                            <td class="contact-body">
+                                <input type="tel" name="phone" class="form-txt">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="contact-item4">Message :</th>
+                            <td class="contact-body">
+                                <textarea name="Message" class="form-textarea" wrap="soft"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                    <input class="contact-submit" type="submit" value="Send">
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <footer class="footer">
+        <nav class="footer-nav">
+            <ul class="footer-nav-list">
+                <li class="footer-nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                <li class="footer-nav-item"><a href="#skill" class="nav-link">Skill</a></li>
+                <li class="footer-nav-item"><a href="#works" class="nav-link">Works</a></li>
+                <li class="footer-nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <p class="footer-txt">
+            <small>&copy;Fujihashi Manaya</small>
+        </p>
+    </footer>
+
+
+    <script src="main.js" defer></script>
+</body>
+</html>
