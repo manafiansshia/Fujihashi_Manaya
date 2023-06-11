@@ -18,14 +18,22 @@ hamburger.addEventListener("click", () => {
     main.classList.toggle("is-active");
     footer.classList.toggle("is-active");
 })
-hamburger.addEventListener("touchend", () => {
-    body.classList.toggle("is-active");
-    nav.classList.toggle("is-active");
-    hamburger.classList.toggle("is-active");
-    header.classList.toggle("is-active");
-    main.classList.toggle("is-active");
-    footer.classList.toggle("is-active");
-})
+
+function isSmartPhone() {
+    if (navigator.userAgent.match(/iPhone|Android.+Mobile/)) {
+      hamburger.addEventListener("touchstart", () => {
+        body.classList.toggle("is-active");
+        nav.classList.toggle("is-active");
+        hamburger.classList.toggle("is-active");
+        header.classList.toggle("is-active");
+        main.classList.toggle("is-active");
+        footer.classList.toggle("is-active");
+    })
+    } else {
+      return false;
+    }
+}
+
 
 
 
