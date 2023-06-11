@@ -315,7 +315,7 @@ main {
 }
 
 .works-not-create::after {
-    content: "maiking...";
+    content: "making...";
     font-size: 40px;
     position: absolute;
     top: 50%;
