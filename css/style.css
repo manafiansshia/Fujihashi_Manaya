@@ -155,6 +155,7 @@ main {
 .main-img {
     width: 390px;
     height: 490px;
+    object-fit: cover;
 }
 
 .main-visual-txt {
